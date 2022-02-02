@@ -1,0 +1,49 @@
+/* ***************************************************************************
+                                Custom CSS 
+*************************************************************************** */
+
+html, body {
+    margin: 10;
+    padding: 10;
+}
+
+h1, h2, p {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.outter-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: solid 1px blue;
+}
+
+.inner-container {
+    padding: 20px;
+}
+
+.snake {
+    background: green;
+    border: solid 1px rgb(0, 22, 0);
+}
